@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body
+{
+    background-image: url("..redvelvet1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+}
+
+.contactMeText
+{
+    padding-top:2%;
+    font-family: 'Pacifico', cursive;
+    font-size: 24px;
+    color: #f48c06;
+    text-align: center;
+}
+
+.contactInfo
+{
+    padding-top:5%;
+}
+
+.form-label
+{
+    font-family:'Exo';
+    font-size:16px;
+    color: #e85d04;
+    text-align:justify;
+}

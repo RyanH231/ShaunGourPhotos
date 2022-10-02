@@ -1,0 +1,38 @@
+header>h1
+{
+    margin-top: 20px;
+    font-family: 'Pacifico', cursive;
+    font-size: 24px;
+    color: #f48c06;
+    text-align: center;
+}
+
+header>hr
+{
+    width:50%; 
+    margin:auto; 
+    color: #8d99ae; 
+    height:25px;
+}
+
+figure>img
+{
+    position: relative; 
+    float:right;
+    margin-left:20%;
+    margin-top:5%;
+    border-radius: 5%;
+    border-color: #1d3557;
+}
+
+figure>figcaption
+{
+    clear:right;
+    font-family: 'Pacifico', cursive;
+    font-size: 26px;
+    color: #f48c06;
+    text-align: center;
+    padding-top: 20px;
+    padding-left:10%;
+}
+

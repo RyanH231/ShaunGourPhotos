@@ -1,0 +1,9 @@
+.carouselImage
+{
+    position: relative; 
+    float:right;
+    margin-left:20%;
+    margin-top:5%;
+    border-radius: 5%;
+    border-color: #1d3557;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Import Bootstrap CSS and custom CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="contactformstyle.css">
+     <!-- Favicon -->
+     <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+     <title>Shaun Gour Photography</title>
+</head>
+<body>
+    
+    <div class="container mt-5">
+        <h1 class="contactMeText"> Contact Me! </h1>
+        <form class="row g-3 contactInfo" action="https://formsubmit.co/0239c34bb4128c60aa3a2d686c040ce9" method="POST">
+            <!-- Honeypot -->
+            <input type="text" name="_honey" style="display:none;">
+            <!-- Disable Captcha -->
+            <input type="hidden" name="_captcha" value="false">
+            <!-- Success Page -->
+            <input type="hidden" name="_next" value="https://ryanh231.github.io/ShaunGourPhotography/index.html">
+
+            <div class="col-md-6">
+                <label for="FirstName" class="form-label">First Name</label>
+                <input type="text" class="form-control" name="name" id="FirstName" required>
+            </div>
+            <div class="col-md-6">
+                <label for="LastName" class="form-label">Last Name</label>
+                <input type="text" class="form-control" name="Last&nbsp;Name" id="LastName" required>
+            </div>
+            <div class="col-md-8">
+                <label for="Email" class="form-label">Email</label>
+                <input type="email" class="form-control" name="Email" id="Email" required>
+            </div>
+            <div class="col-md-4">
+                <label for="PhoneNumber" class="form-label">Phone Number</label>
+                <input type="text" class="form-control" name="Phone" id="PhoneNumber" placeholder="613-222-2222">
+            </div>
+            <div class="col-md-12">
+                <label for="Message" class="form-label">Message</label>
+                <textarea class="form-control"  name="Message" id="Message" rows="3" required></textarea>
+            </div>
+            <div class="col-md-12">
+                 <button type="submit" class="btn btn-light">Submit </button>
+            </div>
+        </form>
+    </div>
+    <!-- Import Bootstrap Javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" 
+     integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+
+</body>
+</html>
